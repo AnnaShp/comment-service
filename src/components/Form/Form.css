@@ -1,0 +1,170 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form,
+.result {
+  border: 2px solid rgb(148, 142, 216);
+}
+.form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.result {
+  width: 99%;
+}
+
+#resultText {
+  border: 2px rgb(175, 174, 192);
+}
+
+#resultText,
+.form,
+.result,
+.user_name {
+  background-color: rgb(68, 68, 68);
+}
+
+.result {
+  height: 350px;
+}
+
+.result > p,
+.user_date > p {
+  font-size: small;
+}
+
+.user > p {
+  font-weight: 800;
+}
+
+.user > p,
+.user_date > p {
+  color: rgb(117, 115, 239);
+}
+
+button,
+p {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(175, 174, 192);
+  margin: 5px;
+}
+
+p,
+img {
+  margin: 5px 20px;
+}
+
+img {
+  width: 70px;
+}
+
+#result,
+#resultText {
+  margin: 10px 0 20px 0;
+}
+button {
+  width: 150px;
+  height: 35px;
+  margin: 5px 20px;
+  background-color: rgb(175, 174, 192);
+  font-weight: 600;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+
+.user_img_date {
+  display: inline-flex;
+  align-items: center;
+}
+
+#resultText {
+  margin: 4%;
+}
+
+.user_date {
+  display: inline-flex;
+  align-items: end;
+}
+
+.check {
+  display: flex;
+}
+
+.check > label:first-child {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.check_radio {
+  margin-right: 25px;
+  width: 25%;
+}
+
+label > input {
+  width: 25px;
+}
+
+input,
+textarea {
+  border: 2px solid rgb(175, 174, 192);
+}
+
+input,
+textarea,
+.user_name {
+  background-color: rgb(180, 175, 175);
+}
+
+.result > p,
+.user_date > p {
+  font-size: small;
+}
+
+.user > p,
+.user_date > p {
+  color: rgb(117, 115, 239);
+}
+
+label,
+p {
+  color: white;
+}
+
+p,
+img {
+  margin: 5px 20px;
+}
+
+img {
+  width: 70px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 4%;
+}
+
+input,
+textarea {
+  width: 85%;
+  /* margin: 10px 0 20px 0; */
+  margin: 2%;
+}
+
+textarea {
+  height: 8em;
+}
